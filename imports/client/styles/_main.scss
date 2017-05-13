@@ -1,0 +1,42 @@
+// this is a partial
+/* CSS declarations go here */
+
+// variables
+$green : #e4ede0;
+$green-alt: darken($green, 15%);
+$blue: #dfe7ed;
+$blue-alt: darken($blue, 15%);
+$red: #eddfdf;
+$red-alt: darken($red, 15%);
+
+* {
+  margin: 0;
+  padding: 0;
+} // reset browser css
+
+html {
+  font-size: 62.5%; // percent of standard default font vlue
+}
+
+body {
+  color: #555555;
+  font-family: Roboto, Helvetica, Arial;
+  background: #f2f2f2;
+  font-size: 1.6rem; // global value, from the html reset
+}
+
+input, button, select {
+  font-size: 1.3rem;
+}
+
+h1 {
+  font-weight: 300;
+  font-size: 2.4rem; //route em, set by html font size
+}
+
+@import 'components/wrapper.scss';
+@import 'components/titleBar.scss';
+@import 'components/item.scss';
+@import 'components/button.scss';
+@import 'components/player.scss';
+@import 'components/form.scss';

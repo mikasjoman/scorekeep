@@ -1,0 +1,138 @@
+/* CSS declarations go here */
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+body {
+  color: #555555;
+  font-family: Roboto, Helvetica, Arial;
+  background: #f2f2f2;
+  font-size: 1.6rem;
+}
+
+input,
+button,
+select {
+  font-size: 1.3rem;
+}
+
+h1 {
+  font-weight: 300;
+  font-size: 2.4rem;
+}
+
+.wrapper {
+  margin: 0 auto;
+  max-width: 50rem;
+  padding: 1.3rem;
+}
+
+.title-bar {
+  background-color: #e35557;
+  color: #fff;
+}
+
+.title-bar__subtitle {
+  font-size: 1.3rem;
+  font-weight: 400;
+}
+
+.item {
+  background: #fff;
+  border: 1px solid #e8e8e8;
+  margin-bottom: 1.3rem;
+  padding: 1.3rem;
+}
+
+.item__message {
+  font-size: 1.3rem;
+  font-style: italic;
+  font-weight: 300;
+  text-align: center;
+  color: purple;
+}
+
+.item__message--empty {
+  color: #999;
+}
+
+.item--position-1 {
+  background: #e4ede0;
+  border-color: #bad1b0;
+}
+
+.item--position-2 {
+  background: #dfe7ed;
+  border-color: #aec2d1;
+}
+
+.item--position-3 {
+  background: #eddfdf;
+  border-color: #d1aeae;
+}
+
+.button {
+  background: transparent;
+  border: 1px solid #555;
+  color: #555;
+  cursor: pointer;
+  font-weight: 600;
+  line-height: 1;
+  margin-left: 1.3rem;
+  outline: none;
+  padding: 1.3rem;
+  transition: background 0.2s ease, transform 0.2s ease;
+}
+
+.button:hover,
+.button:focus {
+  background: #e8e8e8;
+}
+
+.button:active {
+  background: #ccc;
+  transform: scaleX(1.1);
+}
+
+.button--round {
+  border-radius: 50%;
+  height: 4rem;
+  width: 4rem;
+}
+
+.player {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.player__name {
+  font-weight: 300;
+  font-size: 1.8rem;
+}
+
+.player__stats {
+  font-size: 1.3rem;
+  font-style: italic;
+  font-weight: 300;
+}
+
+.player__actions {
+  flex-shrink: 0;
+}
+
+.form {
+  display: flex;
+}
+
+.form__input {
+  border: 1px solid #e8e8e8;
+  flex-grow: 1;
+  padding: 0 1.3rem;
+}

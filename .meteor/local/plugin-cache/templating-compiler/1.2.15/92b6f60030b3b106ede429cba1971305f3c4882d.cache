@@ -1,0 +1,1 @@
+{"head":"<title>Score Keep</title>\n  <meta name=\"viewport\" content=\"width=device-width, initial-scale=1\" />","body":"","js":"\nTemplate.body.addContent((function() {\n  var view = this;\n  return HTML.Raw('<div id=\"app\"></div>');\n}));\nMeteor.startup(Template.body.renderToDocument);\n","bodyAttrs":{}}
